@@ -4,8 +4,8 @@
       <el-header>
         <el-row>
           <el-col :span="4">
-            <div class="grid-content">
-              <img src="../assets/logo.png" alt>
+            <div class="grid-content" id="img">
+              <!-- <img src="../assets/logo1.png" alt>   -->
             </div>
           </el-col>
           <el-col :span="18">
@@ -138,6 +138,15 @@ export default {
   // 设置折叠菜单 样式
   .el-submenu__title {
     text-align: left;
+  }
+
+  #img {
+    width: 207px;
+    height: 56px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 </style>
